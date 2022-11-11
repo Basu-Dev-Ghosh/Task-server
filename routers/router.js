@@ -82,7 +82,7 @@ router.post('/api/senddata', async (req, res) => {
         });
         let mailOption = {
             from: 'basu1735@gmail.com', // sender address
-            to: `basudev.ghosh.1735@gmail.com`, // list of receivers
+            to: `info@redpositive.in`, // list of receivers
             subject: "Data of the users", // Subject line
             text: "User's Data", // plain text body
             html: output, // html body
